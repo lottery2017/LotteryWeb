@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="205mysql">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="gaojun2">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="aaa"/>
+    <schema id="4" parent="1" name="cdd"/>
+    <schema id="5" parent="1" name="ch"/>
+    <schema id="6" parent="1" name="chena"/>
+    <schema id="7" parent="1" name="chend"/>
+    <schema id="8" parent="1" name="chendong"/>
+    <schema id="9" parent="1" name="chendongh"/>
+    <schema id="10" parent="1" name="chendongh3"/>
+    <schema id="11" parent="1" name="chendongha"/>
+    <schema id="12" parent="1" name="chenguoa"/>
+    <schema id="13" parent="1" name="console"/>
+    <schema id="14" parent="1" name="dengya"/>
+    <schema id="15" parent="1" name="dualconsole"/>
+    <schema id="16" parent="1" name="esb"/>
+    <schema id="17" parent="1" name="esb11"/>
+    <schema id="18" parent="1" name="esb2"/>
+    <schema id="19" parent="1" name="esb222"/>
+    <schema id="20" parent="1" name="esbdb1"/>
+    <schema id="21" parent="1" name="esbtest"/>
+    <schema id="22" parent="1" name="esbzm"/>
+    <schema id="23" parent="1" name="esbzm11"/>
+    <schema id="24" parent="1" name="flowtest"/>
+    <schema id="25" parent="1" name="flowzm"/>
+    <schema id="26" parent="1" name="gaojun1"/>
+    <schema id="27" parent="1" name="gaojun3"/>
+    <schema id="28" parent="1" name="garnier"/>
+    <schema id="29" parent="1" name="heihei"/>
+    <schema id="30" parent="1" name="huamgmb"/>
+    <schema id="31" parent="1" name="huangkai"/>
+    <schema id="32" parent="1" name="huangmb"/>
+    <schema id="33" parent="1" name="huangmb1"/>
+    <schema id="34" parent="1" name="huangmb2"/>
+    <schema id="35" parent="1" name="huangmb3"/>
+    <schema id="36" parent="1" name="information_schema"/>
+    <schema id="37" parent="1" name="journal"/>
+    <schema id="38" parent="1" name="liangjinga"/>
+    <schema id="39" parent="1" name="liuddf"/>
+    <schema id="40" parent="1" name="liuzyr"/>
+    <schema id="41" parent="1" name="master"/>
+    <schema id="42" parent="1" name="miaolu"/>
+    <schema id="43" parent="1" name="mysql"/>
+    <schema id="44" parent="1" name="performance_schema"/>
+    <schema id="45" parent="1" name="qinjw"/>
+    <schema id="46" parent="1" name="redmine"/>
+    <schema id="47" parent="1" name="reversal"/>
+    <schema id="48" parent="1" name="sg2222"/>
+    <schema id="49" parent="1" name="sgss"/>
+    <schema id="50" parent="1" name="sgss1"/>
+    <schema id="51" parent="1" name="small"/>
+    <schema id="52" parent="1" name="sonar"/>
+    <schema id="53" parent="1" name="ss"/>
+    <schema id="54" parent="1" name="sys"/>
+    <schema id="55" parent="1" name="testlink"/>
+    <schema id="56" parent="1" name="wanga"/>
+    <schema id="57" parent="1" name="wangyu"/>
+    <schema id="58" parent="1" name="xiaoljb"/>
+    <schema id="59" parent="1" name="xucf"/>
+    <schema id="60" parent="1" name="xucf1"/>
+    <schema id="61" parent="1" name="xucf2"/>
+    <schema id="62" parent="1" name="xucfdb2"/>
+    <schema id="63" parent="1" name="xuebb"/>
+    <schema id="64" parent="1" name="zhanga"/>
+    <schema id="65" parent="1" name="zhangbing"/>
+    <schema id="66" parent="1" name="zhangbing123"/>
+    <schema id="67" parent="1" name="zhangbing777"/>
+    <schema id="68" parent="1" name="zhangmi"/>
+    <schema id="69" parent="1" name="zhaoshuo1"/>
+    <schema id="70" parent="1" name="zhaoxl"/>
+    <schema id="71" parent="1" name="zhaoxl1"/>
+    <schema id="72" parent="1" name="zhaoxla"/>
+    <schema id="73" parent="1" name="zhnagmi"/>
+    <schema id="74" parent="1" name="zm"/>
+    <schema id="75" parent="1" name="zm1"/>
+    <schema id="76" parent="1" name="zm11"/>
+    <schema id="77" parent="1" name="zm111"/>
+    <schema id="78" parent="1" name="zm2"/>
+    <schema id="79" parent="1" name="zm22"/>
+    <schema id="80" parent="1" name="zmesb"/>
+    <table id="81" parent="2" name="tab_user_basic_infomation">
+      <Comment>用户信息表</Comment>
+    </table>
+    <column id="82" parent="81" name="userid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="83" parent="81" name="yhnc">
+      <Position>2</Position>
+      <DataType>varbinary(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="81" name="username">
+      <Position>3</Position>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="85" parent="81" name="yhdh">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="81" name="yhlx">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="87" parent="81" name="lrrq">
+      <Position>6</Position>
+      <Comment>注册日期</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="88" parent="81" name="lrry">
+      <Position>7</Position>
+      <Comment>推荐人ID</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="89" parent="81" name="txurl">
+      <Position>8</Position>
+      <Comment>头像地址</Comment>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="90" parent="81" name="xgrq">
+      <Position>9</Position>
+      <Comment>修改日期</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="91" parent="81" name="zzid">
+      <Position>10</Position>
+      <Comment>组织名称</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="92" parent="81" name="yxbz">
+      <Position>11</Position>
+      <Comment>有效标志</Comment>
+      <DataType>varchar(4)|0</DataType>
+    </column>
+    <index id="93" parent="81" name="table_name_yhdh_uindex">
+      <ColNames>yhdh</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="94" parent="81" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="95" parent="81" name="table_name_yhdh_uindex">
+      <ColNames>yhdh</ColNames>
+      <UnderlyingIndexName>table_name_yhdh_uindex</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
