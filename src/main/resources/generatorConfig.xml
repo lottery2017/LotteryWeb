@@ -24,7 +24,7 @@
         </javaTypeResolver>
 
         <!-- targetProject:生成PO类的位置 -->
-        <javaModelGenerator targetPackage="com.caipiao.app.dao"
+        <javaModelGenerator targetPackage="com.lottery.app.domain"
                             targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false"/>
@@ -42,12 +42,12 @@
         </sqlMapGenerator>
         <!-- targetPackage：mapper接口生成的位置 -->
         <javaClientGenerator type="XMLMAPPER"
-                             targetPackage="com.caipiao.app.dao.mapper"
+                             targetPackage="com.lottery.app.dao"
                              targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
         <!-- 指定数据库表 -->
-        <table schema="" tableName="tab_user_basic_infomation"></table>
+        <table schema="" tableName="user"></table>
     </context>
 </generatorConfiguration>
